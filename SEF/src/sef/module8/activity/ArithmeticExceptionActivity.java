@@ -17,7 +17,7 @@ public class ArithmeticExceptionActivity {
 	public void catchMe() {
 		
 		int num1 = 10;
-		int num2 = 0;
+		int num2 = 2;
 	//The following code results in an Exception.
 	//2 - Identify the exception and write code to handle this exception.
 		try {
@@ -26,9 +26,7 @@ public class ArithmeticExceptionActivity {
 	System.out.println("The result is :" + result);
 }
  catch(ArithmeticException e) {
-	 
-	 int result= num2/num1;
-	 System.out.println("There is the correct result " + result);
+	 System.out.println("There is an error occured");
  }
 
 finally {
