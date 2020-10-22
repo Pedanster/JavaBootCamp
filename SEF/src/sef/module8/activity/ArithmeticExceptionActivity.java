@@ -17,16 +17,18 @@ public class ArithmeticExceptionActivity {
 	public void catchMe() {
 		
 		int num1 = 10;
-		int num2 = 2;
+		int num2 = 0;
 	//The following code results in an Exception.
 	//2 - Identify the exception and write code to handle this exception.
-
+		try {
 	int result=num1/num2;
-	try {
+	
 	System.out.println("The result is :" + result);
 }
  catch(ArithmeticException e) {
-	 System.out.println("There is an exception");
+	 
+	 int result= num2/num1;
+	 System.out.println("There is the correct result " + result);
  }
 
 finally {
@@ -37,6 +39,6 @@ finally {
 	
 	//4- try to call catchMe with 10 and 2 now and see which messages get printed. 
 
-
 }
+
 }
