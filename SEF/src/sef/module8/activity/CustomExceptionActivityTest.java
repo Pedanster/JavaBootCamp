@@ -24,7 +24,10 @@ int flag=0;
 for(int i=0;i<4;i++)
 {
 // "Here I am lost -Nataly B."
-	if(name = []validUsers) {
+	if(i== validUsers) {
+		
+		
+		throw new CustomExceptionActivity
 		
 	}
 

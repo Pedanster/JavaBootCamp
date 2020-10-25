@@ -35,7 +35,7 @@ public class MyCalculatorTest extends TestCase {
 		b = -10;		
 		//	Checks the sum of two (2) negative values
 		assertEquals(-15, (theCalculator.getSum(a,b)));
-		assertEquals(-15, (theCalculator.getSum(b,a)));
+		assertEquals(-30, (theCalculator.getSum(b,a)));
 	}
 
 	public void testGetDifference() {
@@ -68,7 +68,7 @@ public class MyCalculatorTest extends TestCase {
 		double b = 10;			
 		//	Checks the product of two (2) positive values
 		assertEquals(50, (theCalculator.getProduct(a,b)),0);
-		assertEquals(50, (theCalculator.getProduct(b,a)),0);		
+		assertEquals(75, (theCalculator.getProduct(b,a)),0);		
 
 		a = -5;		
 		b = 10;		
